@@ -4,7 +4,7 @@ Background:
    Given User is on Saucedemo Page "https://www.saucedemo.com/"
   
    @InvalidCredentials
-   Scenario: Login with Invalid credentials
+   Scenario Outline: Login with Invalid credentials
       
     When User enters username as "<username>" and password as "<password>"
     Then User should stay on same page with error msg as "<errormassage>"

@@ -8,7 +8,7 @@ import io.cucumber.java.Scenario;
  
 public class Hooks {
  
-    @Before
+   /* @Before
     public static void setUp() {
  
        HelperClass.setUpDriver();
@@ -24,5 +24,5 @@ public class Hooks {
         }   
          
         HelperClass.tearDown();
-    }
+    }*/
 }
