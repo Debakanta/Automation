@@ -1,7 +1,0 @@
-com\locators\LogoutPageLocators.class
-com\utils\HelperClass.class
-com\actions\LogoutPageActions.class
-com\actions\LoginPageActions.class
-com\locators\LoginPageLocators.class
-com\locators\ProductPageLocators.class
-com\actions\ProductPageActions.class
